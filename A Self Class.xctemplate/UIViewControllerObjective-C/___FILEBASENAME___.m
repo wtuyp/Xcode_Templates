@@ -15,7 +15,7 @@
     self.title = @"";
 
     [self setupData];
-    [self setupNavigationBarItems];
+//    [self setupNavigationBarItems];
     [self setupSubviews];
 }
 
@@ -49,16 +49,26 @@
 
 #pragma mark - public
 
+
 #pragma mark - private
+
 
 #pragma mark - getter
 
+
 #pragma mark - setter
+
 
 #pragma mark - action
 
+
 #pragma mark - notification
 
+
 #pragma mark - api
+
+
+#pragma mark - other
+
 
 @end

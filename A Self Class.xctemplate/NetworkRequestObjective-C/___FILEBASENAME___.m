@@ -12,6 +12,7 @@
 
 
 @implementation ___FILEBASENAME___Response
+
 + (NSDictionary *)modelContainerPropertyGenericClass {
     return @{
              @"<#listKey#>": <#item#>.class,
