@@ -13,11 +13,11 @@
 
 @implementation ___FILEBASENAME___Response
 
-+ (NSDictionary *)modelContainerPropertyGenericClass {
-    return @{
-             @"<#listKey#>": <#item#>.class,
-             };
-}
+//+ (NSDictionary *)modelContainerPropertyGenericClass {
+//    return @{
+//             @"<#listKey#>": <#item#>.class,
+//             };
+//}
 
 // + (NSDictionary *)modelCustomPropertyMapper {
 //     return @{@"<#receivedKey#>" : @"<#sendKey#>"};
