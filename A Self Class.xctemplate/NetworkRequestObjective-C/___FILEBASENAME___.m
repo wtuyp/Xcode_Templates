@@ -5,7 +5,7 @@
 @implementation ___FILEBASENAME___Request
 
 - (NSString *)requestUrl {
-  return @"<#uri#>";
+    return @"<#uri#>";
 }
 
 @end
@@ -15,8 +15,8 @@
 
 //+ (NSDictionary *)modelContainerPropertyGenericClass {
 //    return @{
-//             @"<#listKey#>": <#item#>.class,
-//             };
+//        @"<#listKey#>": <#item#>.class,
+//    };
 //}
 
 // + (NSDictionary *)modelCustomPropertyMapper {

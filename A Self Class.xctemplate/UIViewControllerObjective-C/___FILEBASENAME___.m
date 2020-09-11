@@ -15,17 +15,10 @@
     self.title = @"";
 
     [self setupData];
+    
 //    [self setupNavigationBarItems];
     [self setupSubviews];
 }
-
-// - (void)viewWillAppear:(BOOL)animated {
-//     [super viewWillAppear:animated];
-// }
-
-// - (void)viewWillDisappear:(BOOL)animated {
-//     [super viewWillDisappear:animated];
-// }
 
 #pragma mark - data
 - (void)setupData {
@@ -34,13 +27,8 @@
 
 #pragma mark - view
 - (void)setupNavigationBarItems {
-    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:<#view#>];
-    self.navigationItem.rightBarButtonItem = rightBarButtonItem;
-
-    // self.navigationItem.titleView = <#view#>;
-
-    // UIBarButtonItem *leftBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:<#view#>];
-    // self.navigationItem.leftBarButtonItem = leftBarButtonItem;
+//    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:<#view#>];
+//    self.navigationItem.rightBarButtonItem = rightBarButtonItem;
 }
 
 - (void)setupSubviews {
@@ -67,6 +55,7 @@
 
 #pragma mark - api
 
+#pragma mark - override
 
 #pragma mark - other
 
