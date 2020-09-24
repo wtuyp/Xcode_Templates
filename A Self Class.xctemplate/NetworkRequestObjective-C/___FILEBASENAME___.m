@@ -23,7 +23,6 @@
 //     return @{@"<#receivedKey#>" : @"<#sendKey#>"};
 // }
 
-
 // - (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
 //   return YES;
 // }

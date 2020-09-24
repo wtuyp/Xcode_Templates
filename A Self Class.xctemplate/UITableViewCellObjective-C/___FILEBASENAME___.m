@@ -8,11 +8,6 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-// - (void)awakeFromNib {
-//     [super awakeFromNib];
-//     // Initialization code
-// }
-
 // - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
 //     [super setSelected:selected animated:animated];
 
@@ -28,6 +23,10 @@
 
     return self;
 }
+
+#pragma mark - public
+
+#pragma mark - private
 
 #pragma mark - getter
 
