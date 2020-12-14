@@ -6,7 +6,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
-<#name#>请求
+<#name#> 请求
 */
 @interface ___FILEBASENAME___Request : NetworkRequest
 
@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
-<#name#>返回
+<#name#> 返回
 */
 @interface ___FILEBASENAME___Response : NetworkResponse
 
