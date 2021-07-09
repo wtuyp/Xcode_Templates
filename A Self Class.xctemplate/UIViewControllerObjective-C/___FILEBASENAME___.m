@@ -15,17 +15,18 @@
     self.title = @"";
 
     [self setupData];
-    
-//    [self setupNavigationBarItems];
+    [self setupNavigationBarItems];
     [self setupSubviews];
 }
 
 #pragma mark - data
+
 - (void)setupData {
 
 }
 
 #pragma mark - view
+
 - (void)setupNavigationBarItems {
 //    UIBarButtonItem *rightBarButtonItem = [[UIBarButtonItem alloc] initWithCustomView:<#view#>];
 //    self.navigationItem.rightBarButtonItem = rightBarButtonItem;
@@ -34,12 +35,6 @@
 - (void)setupSubviews {
 
 }
-
-#pragma mark - public
-
-
-#pragma mark - private
-
 
 #pragma mark - getter
 
@@ -50,12 +45,20 @@
 #pragma mark - action
 
 
+#pragma mark - api
+
+
 #pragma mark - notification
 
 
-#pragma mark - api
-
 #pragma mark - override
+
+
+#pragma mark - public
+
+
+#pragma mark - private
+
 
 #pragma mark - other
 
