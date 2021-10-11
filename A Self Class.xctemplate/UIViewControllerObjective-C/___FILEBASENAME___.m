@@ -19,6 +19,9 @@
     [self setupSubviews];
 }
 
+#pragma mark - override
+
+
 #pragma mark - data
 
 - (void)setupData {
@@ -49,9 +52,6 @@
 
 
 #pragma mark - notification
-
-
-#pragma mark - override
 
 
 #pragma mark - public

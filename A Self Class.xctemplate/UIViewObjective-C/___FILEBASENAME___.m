@@ -8,6 +8,8 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+#pragma mark - life
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
@@ -28,10 +30,7 @@
 
 }
 
-#pragma mark - public
-
-
-#pragma mark - private
+#pragma mark - override
 
 
 #pragma mark - getter
@@ -41,6 +40,18 @@
 
 
 #pragma mark - action
+
+
+#pragma mark - api
+
+
+#pragma mark - notification
+
+
+#pragma mark - public
+
+
+#pragma mark - private
 
 
 #pragma mark - other
