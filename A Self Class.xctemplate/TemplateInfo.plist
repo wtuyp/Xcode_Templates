@@ -68,9 +68,9 @@
 				<key>UITableViewCell</key>
 				<string>Cell</string>
 				<key>UICollectionViewController</key>
-				<string>CollectionViewController</string>
+				<string>CollectionController</string>
 				<key>UICollectionViewCell</key>
-				<string>CollectionViewCell</string>
+				<string>CollectionCell</string>
 				<key>UICollectionReusableView</key>
 				<string>CollectionReusableView</string>
 				<key>NetworkRequest</key>
