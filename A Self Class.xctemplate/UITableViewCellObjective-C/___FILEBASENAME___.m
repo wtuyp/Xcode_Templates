@@ -19,16 +19,15 @@
     if (self) {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         self.backgroundColor = UIColor.clearColor;
+        [self setupInit];
     }
 
     return self;
 }
 
-#pragma mark - public
+- (void)setupInit {
 
-
-#pragma mark - private
-
+}
 
 #pragma mark - getter
 
@@ -37,6 +36,12 @@
 
 
 #pragma mark - action
+
+
+#pragma mark - public
+
+
+#pragma mark - private
 
 
 @end

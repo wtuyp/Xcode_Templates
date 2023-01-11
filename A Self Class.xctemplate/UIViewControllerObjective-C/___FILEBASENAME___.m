@@ -48,10 +48,10 @@
 #pragma mark - action
 
 
-#pragma mark - api
-
-
 #pragma mark - notification
+
+
+#pragma mark - api
 
 
 #pragma mark - public
@@ -59,8 +59,6 @@
 
 #pragma mark - private
 
-
-#pragma mark - other
 
 
 @end

@@ -54,7 +54,5 @@
 #pragma mark - private
 
 
-#pragma mark - other
-
 
 @end

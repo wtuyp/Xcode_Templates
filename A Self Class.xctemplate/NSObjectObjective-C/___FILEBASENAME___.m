@@ -8,16 +8,18 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-//+ (NSDictionary *)mj_objectClassInArray {
+//+ (NSDictionary *)modelContainerPropertyGenericClass {
 //    return @{
 //        @"<#listKey#>": <#item#>.class,
 //    };
 //}
-
-//+ (NSDictionary *)mj_replacedKeyFromPropertyName {
-//    return @{
-//        @"<#receivedKey#>" : @"<#sendKey#>",
-//    };
-//}
+//
+// + (NSDictionary *)modelCustomPropertyMapper {
+//     return @{@"<#receivedKey#>" : @"<#sendKey#>"};
+// }
+//
+// - (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
+//    return YES;
+// }
 
 @end
