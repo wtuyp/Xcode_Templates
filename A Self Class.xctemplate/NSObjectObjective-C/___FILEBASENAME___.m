@@ -13,13 +13,17 @@
 //        @"<#listKey#>": <#item#>.class,
 //    };
 //}
-//
-// + (NSDictionary *)modelCustomPropertyMapper {
-//     return @{@"<#receivedKey#>" : @"<#sendKey#>"};
-// }
-//
-// - (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
+
+//+ (NSDictionary *)modelCustomPropertyMapper {
+//    return @{@"<#receivedKey#>" : @"<#sendKey#>"};
+//}
+
+//- (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
 //    return YES;
-// }
+//}
+
+//- (NSDictionary *)modelCustomWillTransformFromDictionary:(NSDictionary *)dic {
+//    return dic;
+//}
 
 @end
