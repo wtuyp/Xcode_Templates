@@ -2,11 +2,16 @@
 
 #import "___FILEBASENAME___.h"
 
-@interface ___FILEBASENAMEASIDENTIFIER___ ()
+@implementation ___FILEBASENAME___Request
+
+- (NSString *)somagoUrl {
+    return @"<#uri#>";
+}
 
 @end
 
-@implementation ___FILEBASENAMEASIDENTIFIER___
+
+@implementation ___FILEBASENAME___Response
 
 //+ (NSDictionary *)modelContainerPropertyGenericClass {
 //    return @{
@@ -15,17 +20,11 @@
 //}
 
 //+ (NSDictionary *)modelCustomPropertyMapper {
-//    return @{
-//        @"<#receivedKey#>": @"<#sendKey#>",
-//    };
+//    return @{@"<#receivedKey#>" : @"<#sendKey#>"};
 //}
 
 //- (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
 //    return YES;
-//}
-
-//- (NSDictionary *)modelCustomWillTransformFromDictionary:(NSDictionary *)dic {
-//    return dic;
 //}
 
 @end

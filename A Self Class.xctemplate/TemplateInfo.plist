@@ -58,6 +58,7 @@
 				<string>UICollectionViewCell</string>
 				<string>UICollectionReusableView</string>
 				<string>NetworkRequest</string>
+				<string>BaseRequest</string>
 			</array>
 			<key>Suffixes</key>
 			<dict>
@@ -74,6 +75,8 @@
 				<key>UICollectionReusableView</key>
 				<string>CollectionReusableView</string>
 				<key>NetworkRequest</key>
+				<string>Api</string>
+				<key>BaseRequest</key>
 				<string>Api</string>
 			</dict>
 		</dict>

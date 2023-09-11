@@ -19,12 +19,16 @@
 //    };
 //}
 
-// + (NSDictionary *)modelCustomPropertyMapper {
-//     return @{@"<#receivedKey#>" : @"<#sendKey#>"};
-// }
+//+ (NSDictionary *)modelCustomPropertyMapper {
+//    return @{@"<#receivedKey#>" : @"<#sendKey#>"};
+//}
 
-// - (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
-//   return YES;
-// }
+//- (BOOL)modelCustomTransformFromDictionary:(NSDictionary *)dic {
+//    return YES;
+//}
+
+//- (NSDictionary *)modelCustomWillTransformFromDictionary:(NSDictionary *)dic {
+//    return dic;
+//}
 
 @end

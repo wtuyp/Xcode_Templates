@@ -16,16 +16,30 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
-
+        [self setupInit];
     }
     
     return self;
 }
 
-#pragma mark - public
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
+    self = [super initWithCoder:aDecoder];
+    if (self) {
+        [self setupInit];
+    }
+    return self;
+}
+
+- (void)setupInit {
+    
+}
+
+- (void)updateUI {
+
+}
 
 
-#pragma mark - private
+#pragma mark - override
 
 
 #pragma mark - getter
@@ -35,6 +49,12 @@
 
 
 #pragma mark - action
+
+
+#pragma mark - public
+
+
+#pragma mark - private
 
 
 @end
