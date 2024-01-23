@@ -59,6 +59,7 @@
 				<string>UICollectionReusableView</string>
 				<string>NetworkRequest</string>
 				<string>BaseRequest</string>
+				<string>BasePageRequest</string>
 			</array>
 			<key>Suffixes</key>
 			<dict>
@@ -77,6 +78,8 @@
 				<key>NetworkRequest</key>
 				<string>Api</string>
 				<key>BaseRequest</key>
+				<string>Api</string>
+				<key>BasePageRequest</key>
 				<string>Api</string>
 			</dict>
 		</dict>

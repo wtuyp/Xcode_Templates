@@ -1,17 +1,16 @@
 //___FILEHEADER___
 
 #import "BaseRequest.h"
-#import "BaseResponse.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-/// <#name#>
+/// <#name#> 请求
 @interface ___FILEBASENAME___Request : BaseRequest
 
 @end
 
 
-@interface ___FILEBASENAME___Response : BaseResponse
+@interface ___FILEBASENAME___Response : NSObject
 
 @end
 
