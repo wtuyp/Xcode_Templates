@@ -1,11 +1,11 @@
 //___FILEHEADER___
 
-#import "BaseRequest.h"
+#import "NetworkBaseRequest.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 /// <#name#> 请求
-@interface ___FILEBASENAME___Request : BaseRequest
+@interface ___FILEBASENAME___Request : NetworkBaseRequest
 
 @end
 
