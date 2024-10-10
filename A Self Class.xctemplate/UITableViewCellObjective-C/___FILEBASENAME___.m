@@ -19,13 +19,13 @@
     if (self) {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
         self.backgroundColor = UIColor.clearColor;
-        [self setupInitWithIdentifier:reuseIdentifier];
+        [self setupInit];
     }
 
     return self;
 }
 
-- (void)setupInitWithIdentifier:(NSString *)identifier {
+- (void)setupInit {
 
 }
 
